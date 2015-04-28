@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.email = ['aman@tmm1.net']
 
   s.add_dependency 'yajl-ruby'
+  s.add_development_dependency 'test-unit'
 
   s.require_paths = ['lib']
   s.bindir = 'bin'
